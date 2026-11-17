@@ -3,6 +3,10 @@
 Planned improvements. Each item lists the skill it proves and what "done" means.
 Add the skill to the CV only after the item is pushed.
 
+## Frontend showcase and hosting
+- Frontend: **Gradio** (`app.py`), kept.
+- Demo hosting: Hugging Face Space with the Gradio SDK, free CPU tier; it sleeps when idle (section 1). Gemini key as a Space secret, demo bills only.
+
 ## 1. Live demo with synthetic bills (priority: highest)
 Proves: a deployed RAG agent a recruiter can try, without exposing the shop's real bills.
 - [ ] Script that generates 8-10 fake supplier bills (made-up vendors, products like atta, basmati, haldi, PG Tips, prices in EUR) into `demo_invoices/`, committed to the repo.
